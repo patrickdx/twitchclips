@@ -1,6 +1,6 @@
 # twitchclps
 
-command line program that downloads twitch clips from any twitch streamer. can download x clips from y timerange using Java. 
+command line program that downloads twitch clips from any twitch streamer. can download x clips from y timerange using Java and twitch API. 
 
 ## usage
 
