@@ -1,1 +1,9 @@
-*.java
+# Remove all the cancer
+
+.gradle/
+.idea/
+build/
+gradle/
+gradlew
+gradlew.bat
+saved_clips/

@@ -1,3 +1,5 @@
+package rest;
+
 public class Clip {
 
     private String title;
@@ -7,12 +9,10 @@ public class Clip {
 
 
     public Clip (String title, String mp4_url, String broadcaster, String url){
-
         this.title = title;
         this.mp4_url = mp4_url;
         this.broadcaster = broadcaster;
         this.url = url;
-
     }
 
     public String getMp4_url(){
@@ -27,9 +27,5 @@ public class Clip {
     public String getUrl(){
         return this.url;
     }
-    public static void main(String[] args)  {
-     
-    }
-
 
 }

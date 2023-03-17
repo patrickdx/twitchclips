@@ -2,6 +2,11 @@ plugins {
     id 'java'
 }
 
+jar{
+    manifest{
+        attributes 'Main-Class': 'Main'
+    }
+}
 group 'org.example'
 version '1.0-SNAPSHOT'
 
